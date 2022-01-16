@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace AplikacijaZaBiblioteku
 {
-    public partial class UpisKorisnika : Form
+    public partial class Pretraga : Form
     {
-        public UpisKorisnika()
+        public Pretraga()
         {
             InitializeComponent();
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void PretragaButun_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void UnosButun_Click(object sender, EventArgs e)
+        private void ZatvoriButun_Click(object sender, EventArgs e)
         {
             this.Close();
         }

@@ -31,6 +31,8 @@
             this.UpisKorisnikaButton = new System.Windows.Forms.Button();
             this.PVButton = new System.Windows.Forms.Button();
             this.UpisKnjigeButton = new System.Windows.Forms.Button();
+            this.DBBrowserButun = new System.Windows.Forms.Button();
+            this.ZatvoriButun = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // UpisKorisnikaButton
@@ -63,11 +65,33 @@
             this.UpisKnjigeButton.UseVisualStyleBackColor = true;
             this.UpisKnjigeButton.Click += new System.EventHandler(this.UpisKnjigeButton_Click);
             // 
+            // DBBrowserButun
+            // 
+            this.DBBrowserButun.Location = new System.Drawing.Point(37, 136);
+            this.DBBrowserButun.Name = "DBBrowserButun";
+            this.DBBrowserButun.Size = new System.Drawing.Size(423, 69);
+            this.DBBrowserButun.TabIndex = 3;
+            this.DBBrowserButun.Text = "Pregled i pretraživanje podataka";
+            this.DBBrowserButun.UseVisualStyleBackColor = true;
+            this.DBBrowserButun.Click += new System.EventHandler(this.DBBrowserButun_Click);
+            // 
+            // ZatvoriButun
+            // 
+            this.ZatvoriButun.Location = new System.Drawing.Point(385, 232);
+            this.ZatvoriButun.Name = "ZatvoriButun";
+            this.ZatvoriButun.Size = new System.Drawing.Size(75, 23);
+            this.ZatvoriButun.TabIndex = 4;
+            this.ZatvoriButun.Text = "Zatvori";
+            this.ZatvoriButun.UseVisualStyleBackColor = true;
+            this.ZatvoriButun.Click += new System.EventHandler(this.ZatvoriButun_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(503, 174);
+            this.ClientSize = new System.Drawing.Size(503, 267);
+            this.Controls.Add(this.ZatvoriButun);
+            this.Controls.Add(this.DBBrowserButun);
             this.Controls.Add(this.UpisKnjigeButton);
             this.Controls.Add(this.PVButton);
             this.Controls.Add(this.UpisKorisnikaButton);
@@ -82,6 +106,8 @@
         private System.Windows.Forms.Button UpisKorisnikaButton;
         private System.Windows.Forms.Button PVButton;
         private System.Windows.Forms.Button UpisKnjigeButton;
+        private System.Windows.Forms.Button DBBrowserButun;
+        private System.Windows.Forms.Button ZatvoriButun;
     }
 }
 

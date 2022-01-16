@@ -16,5 +16,10 @@ namespace AplikacijaZaBiblioteku
         {
             InitializeComponent();
         }
+
+        private void ZavrsiButun_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

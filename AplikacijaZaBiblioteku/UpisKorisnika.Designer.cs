@@ -94,6 +94,7 @@
             this.UnosButun.TabIndex = 6;
             this.UnosButun.Text = "Unesi";
             this.UnosButun.UseVisualStyleBackColor = true;
+            this.UnosButun.Click += new System.EventHandler(this.UnosButun_Click);
             // 
             // UpisKorisnika
             // 

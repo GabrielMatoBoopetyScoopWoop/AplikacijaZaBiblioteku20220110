@@ -39,7 +39,7 @@ namespace AplikacijaZaBiblioteku
 
         private void UnosButun_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void KolicinaKnjige_TextChanged(object sender, EventArgs e)

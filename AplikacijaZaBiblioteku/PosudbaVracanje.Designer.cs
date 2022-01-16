@@ -44,6 +44,7 @@
             this.ZavrsiButun.TabIndex = 0;
             this.ZavrsiButun.Text = "Ok";
             this.ZavrsiButun.UseVisualStyleBackColor = true;
+            this.ZavrsiButun.Click += new System.EventHandler(this.ZavrsiButun_Click);
             // 
             // KorisnikCombo
             // 
